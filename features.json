@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "latestAppVersion": "1.1.0",
+    "downloadUrl": "",
+    "changelog": ""
+  },
+  "versions": {
+    "26H2": {
+      "name": "Windows 11 26H2 (2026 Update)",
+      "notes": "Released September 29, 2026. 26H2 is an enablement package: it shares the same system files as 24H2 and 25H2, so on an eligible PC a small package switches the new version on with a single restart. Most features were already delivered quietly through 2026 monthly updates and are activated, not freshly downloaded. 26H2 adds no new hardware requirements and resets the support lifecycle: Home and Pro editions receive updates until October 10, 2028 (Enterprise and Education get 36 months).",
+      "cards": [
+        {
+          "id": "26h2-enablement-package",
+          "title": "26H2 installs as a tiny enablement package",
+          "summary": "Windows 11 26H2 is not a reinstall. It shares the same code as 24H2 and 25H2, so on an eligible PC a small package (about 174 KB) switches the new version on with one restart. What became available is a year of improvements delivered through 2026 monthly updates, now activated.",
+          "category": "misc",
+          "msSettingsUri": "ms-settings:windowsupdate",
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": false
+        },
+        {
+          "id": "26h2-settings-backup",
+          "title": "Windows settings backup on by default (work devices)",
+          "summary": "On eligible commercial devices, 26H2 turns on Windows settings backup by default, preserving supported settings and the Microsoft Store app list for recovery, refresh, and device replacement. Admin-configured policies still take precedence. Managed at Settings > Accounts > Windows Backup.",
+          "category": "settings",
+          "msSettingsUri": null,
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": false
+        },
+        {
+          "id": "26h2-taskbar-app-actions",
+          "title": "App-specific taskbar actions enabled",
+          "summary": "Commercial devices now get app-specific taskbar actions by default, so common actions of the app you are using are available directly from the taskbar.",
+          "category": "shell",
+          "msSettingsUri": "ms-settings:taskbar",
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": false
+        },
+        {
+          "id": "26h2-explorer-enhancements",
+          "title": "File Explorer upgrades switched on",
+          "summary": "File Explorer improvements previously held behind commercial controls are now enabled: AI actions such as Summarize with Copilot (requires a Microsoft 365 subscription), more archive formats (uu, cpio, xar, nupkg), a faster Home, voice typing when renaming files, and remembered view and sort preferences in folders like Downloads.",
+          "category": "apps",
+          "msSettingsUri": null,
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": false
+        },
+        {
+          "id": "26h2-administrator-protection",
+          "title": "Administrator protection (just-in-time admin)",
+          "summary": "A security option that gives administrators temporary just-in-time privileges instead of permanent admin rights, with profile separation to harden Windows against elevation-of-privilege attacks. Off by default; organizations enable it through Microsoft Intune or Group Policy.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": false
+        },
+        {
+          "id": "26h2-smart-app-control",
+          "title": "Smart App Control without a clean install",
+          "summary": "You can now turn Smart App Control on or off in the Windows Security app without reinstalling Windows. When on, it helps block untrusted or potentially harmful apps.",
+          "category": "security",
+          "msSettingsUri": "ms-settings:windowsdefender",
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": false
+        },
+        {
+          "id": "26h2-start-menu",
+          "title": "Redesigned Start menu",
+          "summary": "Start gets a scrollable All list plus category and grid views, adapts to your display size, and lets you choose the menu size and show or hide the Pinned, Recent, and All sections.",
+          "category": "start",
+          "msSettingsUri": "ms-settings:personalization-start",
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": true
+        },
+        {
+          "id": "26h2-point-in-time-restore",
+          "title": "Point-in-time restore",
+          "summary": "A recovery option that rolls your PC back, including apps, settings, and personal files, to a recent automatic restore point. Useful when an update or app causes trouble. Rolling out gradually, so it may not be visible on your device yet.",
+          "category": "misc",
+          "msSettingsUri": "ms-settings:recovery",
+          "sourceUrl": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-26h2",
+          "gradualRollout": true
+        }
+      ]
+    }
+  },
+  "updates": {
+    "KB5127648": {
+      "build": "26300.9711 (26H2), 26200.9711 (25H2), 26100.9711 (24H2)",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5127648-pdf-preview",
+          "title": "File Explorer previews downloaded PDFs again",
+          "summary": "Downloaded PDFs and other non-HTML files preview automatically in the Preview pane again. HTML files from the web still show a warning, but now with a Preview anyway button so you can choose to see them.",
+          "category": "apps",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127648-copilot-key",
+          "title": "Remap the Copilot key",
+          "summary": "PCs with a dedicated Copilot key can now remap it to Right Ctrl, the Context Menu key, Search, or a chosen app, instead of always opening Copilot.",
+          "category": "input",
+          "msSettingsUri": "ms-settings:personalization-textinput-copilot-hardwarekey",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127648-open-maximized",
+          "title": "Option to always open apps maximized",
+          "summary": "A new accessibility toggle under Settings > Accessibility > Visual effects makes apps open full screen by default instead of remembering a small window size.",
+          "category": "accessibility",
+          "msSettingsUri": "ms-settings:easeofaccess-visualeffects",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127648-touchpad-gestures",
+          "title": "New touchpad scrolling gestures",
+          "summary": "Precision touchpads gain single-finger scrolling starting from the left or right edge, and automatic scrolling that keeps momentum while your fingers rest near the edge. Under Settings > Bluetooth & devices > Touchpad.",
+          "category": "input",
+          "msSettingsUri": "ms-settings:devices-touchpad",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127648-emoji-17",
+          "title": "Emoji 17.0",
+          "summary": "The emoji set updates to Unicode Emoji 17.0 with new designs such as the distorted face, fight cloud, and hairy creature. Press Windows key + period (.) to open the emoji panel.",
+          "category": "misc",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127648-bluetooth-fixes",
+          "title": "Bluetooth reliability fixes",
+          "summary": "Fixes volume syncing with Bluetooth headsets during calls, devices shown as connected after they disconnect, LE Audio and Shared Audio reliability, and a system crash (error 0x139) during audio streaming.",
+          "category": "misc",
+          "msSettingsUri": "ms-settings:bluetooth",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": false
+        },
+        {
+          "id": "kb5127648-tips-widget",
+          "title": "New Tips widget",
+          "summary": "A Tips widget with short guides to Windows features is available on the Widgets board and can also be added to the lock screen.",
+          "category": "shell",
+          "msSettingsUri": "ms-settings:lockscreen",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127648-24h2-end-of-updates",
+          "title": "24H2 Home and Pro reach end of updates",
+          "summary": "This October 13, 2026 update is the last one for Windows 11 24H2 Home and Pro. Those PCs stop receiving security fixes unless they move to 25H2 or 26H2. 24H2 Enterprise and Education editions continue until October 12, 2027.",
+          "category": "security",
+          "msSettingsUri": "ms-settings:windowsupdate",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+          "gradualRollout": false
+        }
+      ],
+      "knownIssues": [
+        {
+          "title": "Smart App Control toggle grayed out",
+          "detail": "On some devices the option to turn on Smart App Control is grayed out after this update. Resolved for 26H2 and 25H2 by KB5127936 (October 28, 2026) and for 24H2 by KB5132061 (November 10, 2026).",
+          "status": "resolved",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update"
+        },
+        {
+          "title": "Remote Desktop fails for non-admin users (error 0xC000000D)",
+          "detail": "Non-admin users cannot connect to remote PCs that have Administrator protection enabled. Resolved for 26H2 and 25H2 by KB5127936, and for 24H2 by KB5132061.",
+          "status": "resolved",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update"
+        },
+        {
+          "title": "USB Audio Class 1.0 devices may not start or produce sound",
+          "detail": "After the September 8, 2026 update (KB5124012), some USB Audio Class 1.0 devices show Code 10 in Device Manager or no sound. The 8-channel and 3D audio symptoms were fixed by KB5129195; the remaining symptoms are fixed by KB5132061.",
+          "status": "mitigated",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update"
+        },
+        {
+          "title": "SQL Server linked server connections stay open (server devices)",
+          "detail": "On server devices, connections created by SQL Server linked server queries can remain open and accumulate. A mitigation is available through Microsoft Support for Business; a fix is expected in a later release.",
+          "status": "open",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update"
+        }
+      ]
+    },
+    "KB5127936": {
+      "build": "26300.9818 (26H2), 26200.9818 (25H2)",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5127936-context-menu",
+          "title": "Faster, customizable right-click menu",
+          "summary": "The File Explorer context menu opens faster and is less cluttered. Choose Customize menu at the bottom of any right-click menu to turn built-in commands on or off, add Print, move app extensions to a submenu, show Cut/Copy/Paste as text, or move Properties to the bottom. Shift + right-click still opens the classic menu.",
+          "category": "shell",
+          "msSettingsUri": "ms-settings:personalization",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127936-cloud-rebuild",
+          "title": "Cloud rebuild recovery option",
+          "summary": "Cloud rebuild reinstalls Windows 11 using an image and device drivers downloaded through Windows Update, even when Windows cannot start, with no USB media required. You can choose to remove your files or securely erase the drive first. Start it at Settings > System > Recovery > Rebuild PC; IT admins can also trigger it remotely.",
+          "category": "misc",
+          "msSettingsUri": "ms-settings:recovery",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127936-autoplay",
+          "title": "Modernized AutoPlay dialog",
+          "summary": "When you connect a phone, camera, or removable drive, the AutoPlay dialog now supports dark mode, respects text scaling and display settings, and can deliver AutoPlay notifications to the notification center.",
+          "category": "shell",
+          "msSettingsUri": "ms-settings:autoplay",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127936-explorer-polish",
+          "title": "File Explorer polish",
+          "summary": "Folder Options now supports dark mode, the address bar accepts ~ to jump straight to your user profile folder (for example ~\\AppData), and search results show name, location, and date in a consistent layout.",
+          "category": "apps",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127936-magnifier",
+          "title": "Magnifier contrast theme, per-monitor zoom, viewport lock",
+          "summary": "Magnifier adds a dark contrast theme that reduces glare while keeping colors in photos and charts, per-monitor zoom levels for multi-display setups (on by default), and viewport locking (Ctrl + Windows key + K) so the magnified view stays on one display while you work on another.",
+          "category": "accessibility",
+          "msSettingsUri": "ms-settings:easeofaccess-magnifier",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127936-live-captions",
+          "title": "Live Captions screen-reader filter",
+          "summary": "Live Captions gains an Include screen reader audio option (off by default) so audio from screen readers such as Narrator, JAWS, and NVDA is not transcribed. Find it under Settings > Accessibility > Captions.",
+          "category": "accessibility",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127936-narrator-math",
+          "title": "Narrator reads math equations",
+          "summary": "Narrator can read and navigate math equations in supported Microsoft 365 apps and in Microsoft Edge or Google Chrome. Press Narrator key + Alt + N and use the arrow keys to explore an equation. Several languages are supported.",
+          "category": "accessibility",
+          "msSettingsUri": "ms-settings:easeofaccess-narrator",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127936-winre-wifi",
+          "title": "WinRE reuses saved Wi-Fi profiles",
+          "summary": "The Windows Recovery Environment now automatically reuses eligible saved Wi-Fi profiles, including certificate-based networks, so recovery options like quick machine recovery and cloud rebuild can get online without preconfigured credentials. On by default; IT admins can disable it.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": [
+        {
+          "title": "USB Audio Class 1.0 devices may still fail",
+          "detail": "Some USB Audio Class 1.0 devices still fail to start or produce no sound after the September 8, 2026 update (KB5124012). Workaround: use another audio output. The remaining symptoms are fixed in the November 10, 2026 update (KB5132061).",
+          "status": "mitigated",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update"
+        },
+        {
+          "title": "An extra restart may be required",
+          "detail": "You may need to restart your PC one more time after installing this optional update and updates rolling out over the next several months.",
+          "status": "open",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update"
+        },
+        {
+          "title": "SQL Server linked server connections stay open (server devices)",
+          "detail": "Same issue tracked since KB5127648: linked server connections on server devices can remain open and accumulate. Contact Microsoft Support for Business for the mitigation; a fix is expected in a later release.",
+          "status": "open",
+          "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update"
+        }
+      ]
+    }
+  }
+}
