@@ -1,9 +1,9 @@
 {
   "meta": {
-    "latestAppVersion": "2.1.0",
+    "latestAppVersion": "2.3.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
     "changelog": "",
-    "updatedAt": "2026-11-24T08:26:35Z"
+    "updatedAt": "2026-11-24T09:40:27Z"
   },
   "versions": {
     "26H2": {
