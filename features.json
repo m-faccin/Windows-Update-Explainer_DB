@@ -3,7 +3,7 @@
     "latestAppVersion": "2.3.1",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
     "changelog": "",
-    "updatedAt": "2026-11-24T14:27:29Z"
+    "updatedAt": "2026-11-24T15:15:10Z"
   },
   "versions": {
     "26H2": {
@@ -287,6 +287,31 @@
           "sourceUrl": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update"
         }
       ]
+    },
+    "KB5135609": {
+      "build": "26227.0000",
+      "date": "2026-11",
+      "cards": [
+        {
+          "id": "kb5135609-setup-dynamic-update",
+          "title": "setup dynamic update for windows 11 feature upgrades",
+          "summary": "Updates core Windows Setup binaries used during feature updates and in-place upgrades to patch security flaws in installation components. Replaces KB5128977 and installs automatically during Windows Update checks.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://thewincentral.com/microsoft-releases-windows-11-kb5135609-and-kb5133853-setup-and-recovery-updates-for-versions-26h2-and-25h2/",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5133853-safe-os-dynamic-update",
+          "title": "safe os dynamic update for windows recovery environment",
+          "summary": "Refreshes the Windows Recovery Environment (WinRE) tools and stability in the recovery partition to ensure startup repair and system reset work reliably after boot failures. Replaces KB5132060 and installs automatically.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://thewincentral.com/microsoft-releases-windows-11-kb5135609-and-kb5133853-setup-and-recovery-updates-for-versions-26h2-and-25h2/",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
     }
   }
 }
