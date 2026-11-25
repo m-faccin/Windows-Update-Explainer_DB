@@ -2,8 +2,8 @@
   "meta": {
     "latestAppVersion": "2.6.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
-    "changelog": "v2.6.0: a manual mark-as-read is now confirmed with a visible dialog from the app itself, so the click always shows that something happened even when the browser blocked the report page script or its protocol prompt; automatic self-acks stay silent and are confirmed on the page.",
-    "updatedAt": "2026-11-25T13:38:33Z"
+    "changelog": "Merge pull request #25 from m-faccin/vibe/handler-ack-confirmation-b4218f",
+    "updatedAt": "2026-11-25T13:49:26Z"
   },
   "versions": {
     "26H2": {
