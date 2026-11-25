@@ -2,8 +2,8 @@
   "meta": {
     "latestAppVersion": "2.5.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
-    "changelog": "v2.5.0: permanent install under %LOCALAPPDATA% when launched from Downloads, uninstall entry in Settings > Apps > Installed apps, the report also opens to announce a new app version, and the mark-as-read button shows a clear confirmation when pressed.",
-    "updatedAt": "2026-11-25T13:25:06Z"
+    "changelog": "Merge pull request #24 from m-faccin/vibe/ack-button-feedback-b4218f",
+    "updatedAt": "2026-11-25T13:38:33Z"
   },
   "versions": {
     "26H2": {
