@@ -2,8 +2,8 @@
   "meta": {
     "latestAppVersion": "2.4.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
-    "changelog": "Merge pull request #20 from m-faccin/vibe/curate-fix-article-urls-155eb4",
-    "updatedAt": "2026-11-25T12:07:25Z"
+    "changelog": "Merge pull request #21 from m-faccin/vibe/fix-main-write-races-155eb4",
+    "updatedAt": "2026-11-25T12:19:34Z"
   },
   "versions": {
     "26H2": {
