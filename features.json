@@ -2,8 +2,8 @@
   "meta": {
     "latestAppVersion": "2.4.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
-    "changelog": "Merge pull request #23 from m-faccin/vibe/ack-button-feedback-b4218f",
-    "updatedAt": "2026-11-25T12:55:03Z"
+    "changelog": "chore: announce app v2.4.0 in feature DB meta (downloadUrl -> latest release)",
+    "updatedAt": "2026-11-25T13:25:06Z"
   },
   "versions": {
     "26H2": {
