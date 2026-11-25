@@ -1,9 +1,9 @@
 {
   "meta": {
-    "latestAppVersion": "2.3.1",
+    "latestAppVersion": "2.4.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
-    "changelog": "",
-    "updatedAt": "2026-11-24T15:15:10Z"
+    "changelog": "Merge pull request #17 from m-faccin/vibe/fix-release-secrets-if-155eb4",
+    "updatedAt": "2026-11-25T10:41:18Z"
   },
   "versions": {
     "26H2": {
