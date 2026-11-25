@@ -3,7 +3,7 @@
     "latestAppVersion": "2.4.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
     "changelog": "Merge pull request #21 from m-faccin/vibe/fix-main-write-races-155eb4",
-    "updatedAt": "2026-11-25T12:19:34Z"
+    "updatedAt": "2026-11-25T12:21:05Z"
   },
   "versions": {
     "26H2": {
@@ -308,6 +308,134 @@
           "category": "security",
           "msSettingsUri": null,
           "sourceUrl": "https://thewincentral.com/microsoft-releases-windows-11-kb5135609-and-kb5133853-setup-and-recovery-updates-for-versions-26h2-and-25h2/",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5134134": {
+      "build": "28000.3237",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5134134-security-cve-2026-20367-fix",
+          "title": "Security update for CVE-2026-20367",
+          "summary": "Addresses a critical remote code execution vulnerability in the Windows TCP/IP stack that could allow attackers to execute arbitrary code on affected systems without user interaction.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5134134",
+          "gradualRollout": false
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5134133": {
+      "build": "26300.9725",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5134133-security-cve-2026-0001-fix",
+          "title": "Security update for CVE-2026-0001",
+          "summary": "Addresses a critical security vulnerability in the Windows kernel that could allow remote code execution. This out-of-band update fixes CVE-2026-0001 affecting Windows 11 versions 26H1, 26H2, and 24H2.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5134133",
+          "gradualRollout": false
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5134130": {
+      "build": "22631.7654",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5134130-security-enhancements-oct-2026",
+          "title": "Security enhancements for Windows 11 version 23H2",
+          "summary": "Addresses critical security vulnerabilities in Windows kernel and networking components to protect against remote code execution and privilege escalation attacks.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5134130",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5132265": {
+      "build": "28000.3620",
+      "date": "2026-11",
+      "cards": [
+        {
+          "id": "kb5132265-windows-hello-fido2-security-key-support",
+          "title": "Windows Hello FIDO2 security key support",
+          "summary": "Adds native support for FIDO2 security keys in Windows Hello, letting you sign in with a hardware key instead of a password on supported sites and apps.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5132265",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5132061": {
+      "build": "26300.9974",
+      "date": "2026-11",
+      "cards": [
+        {
+          "id": "kb5132061-security-updates",
+          "title": "Security updates for Windows 11",
+          "summary": "This update includes security fixes for vulnerabilities in Windows components. It addresses issues that could allow remote code execution, privilege escalation, or data exposure.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5132061",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5132059": {
+      "build": "28000.3501",
+      "date": "2026-11",
+      "cards": [
+        {
+          "id": "kb5132059-windows-11-26h1-november-2026-update",
+          "title": "Windows 11 version 26H1 November 2026 update",
+          "summary": "Security and quality update for Windows 11 version 26H1 including fixes for known issues and improvements to system stability and reliability.",
+          "category": "misc",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5132059",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5132057": {
+      "build": "26300.10075",
+      "date": "2026-11",
+      "cards": [
+        {
+          "id": "kb5132057-windows-11-26h1-preview-update",
+          "title": "Windows 11 version 26H1 preview update",
+          "summary": "This update brings the first preview build of Windows 11 version 26H1 to testers. It includes general OS improvements and fixes for known issues.",
+          "category": "misc",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5132057",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5132043": {
+      "build": "26300.9911",
+      "date": "2026-11",
+      "cards": [
+        {
+          "id": "kb5132043-hotpatch-security-update",
+          "title": "Hotpatch security update for Windows 11",
+          "summary": "This update provides security improvements for Windows 11 versions 26H2, 25H2, and 24H2. It includes fixes for vulnerabilities and enhances system stability without requiring a full system reboot.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5132043",
           "gradualRollout": true
         }
       ],
