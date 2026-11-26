@@ -3,7 +3,7 @@
     "latestAppVersion": "2.6.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
     "changelog": "Merge pull request #25 from m-faccin/vibe/handler-ack-confirmation-b4218f",
-    "updatedAt": "2026-11-25T13:49:26Z"
+    "updatedAt": "2026-11-26T02:06:39Z"
   },
   "versions": {
     "26H2": {
@@ -436,6 +436,183 @@
           "category": "security",
           "msSettingsUri": null,
           "sourceUrl": "https://support.microsoft.com/help/5132043",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5131087": {
+      "build": "22631.7711",
+      "date": "2026-11",
+      "cards": [
+        {
+          "id": "kb5131087-security-update",
+          "title": "Security update for Windows 11 version 23H2",
+          "summary": "Addresses security vulnerabilities in Windows 11 version 23H2. Includes updates to the Windows kernel, Microsoft Defender, and other core components to improve system security.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5131087",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5129242": {
+      "build": "22631.7584",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5129242-security-update-for-cve-2026-33242",
+          "title": "Security update for CVE-2026-33242",
+          "summary": "Addresses a critical remote code execution vulnerability in the Windows TCP/IP stack that could allow an attacker to execute code on affected systems without authentication.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5129242",
+          "gradualRollout": false
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5129195": {
+      "build": "26200.9457 and 26100.9457",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5129195-security-update-sep-2026",
+          "title": "Security update for September 2026",
+          "summary": "Addresses security vulnerabilities in Windows 11 versions 26H1 and 26H2. Includes fixes for remote code execution, privilege escalation, and information disclosure issues.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5129195",
+          "gradualRollout": false
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5129194": {
+      "build": "28000.2956",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5129194-security-update-for-windows-11-version-26h1",
+          "title": "Security update for Windows 11 version 26H1",
+          "summary": "Addresses security vulnerabilities in Windows 11 version 26H1. This out-of-band update includes fixes for critical and important security issues to protect against potential exploits.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5129194",
+          "gradualRollout": false
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5127653": {
+      "build": "28000.3365",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5127653-26h1-ai-powered-search-in-file-explorer",
+          "title": "AI-powered search in File Explorer",
+          "summary": "File Explorer now uses AI to understand natural language queries and return more relevant results faster. Searches like 'photos from last summer' or 'documents about project x' work better with contextual understanding.",
+          "category": "shell",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5127653",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127653-26h1-taskbar-auto-hide-improvements",
+          "title": "Improved auto-hide for taskbar",
+          "summary": "Taskbar auto-hide now respects window focus and screen edges more precisely, reducing accidental reveals while keeping apps accessible. Edge cases like multi-monitor setups are handled better.",
+          "category": "shell",
+          "msSettingsUri": "ms-settings:taskbar",
+          "sourceUrl": "https://support.microsoft.com/help/5127653",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127653-26h1-voice-access-command-updates",
+          "title": "Voice Access command updates",
+          "summary": "Voice Access gains new commands for window management, clipboard actions, and system navigation. Users can now say 'switch to next window' or 'paste from clipboard' for hands-free control.",
+          "category": "input",
+          "msSettingsUri": "ms-settings:easeofaccess-voiceaccess",
+          "sourceUrl": "https://support.microsoft.com/help/5127653",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127653-26h1-security-hardware-isolation",
+          "title": "Security hardware isolation for apps",
+          "summary": "Apps can now request hardware-level isolation for sensitive operations like password entry or biometric authentication, reducing risk of keylogging or screen capture attacks.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5127653",
+          "gradualRollout": true
+        },
+        {
+          "id": "kb5127653-26h1-window-snapping-improvements",
+          "title": "Window snapping improvements",
+          "summary": "Snap layouts now remember window sizes and positions per monitor, and dragging windows to screen corners triggers snapping more reliably. Multi-monitor setups handle snapping states better.",
+          "category": "shell",
+          "msSettingsUri": "ms-settings:multitasking",
+          "sourceUrl": "https://support.microsoft.com/help/5127653",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": [
+        {
+          "title": "File Explorer AI search may return incorrect results for complex queries",
+          "detail": "Some natural language queries with multiple conditions (e.g., 'photos from last summer AND tagged vacation') may return incomplete or irrelevant results.",
+          "status": "open",
+          "sourceUrl": "https://support.microsoft.com/help/5127653"
+        },
+        {
+          "title": "Taskbar auto-hide may not work on some multi-monitor setups",
+          "detail": "Users with mixed DPI monitors or non-standard display arrangements may experience taskbar flickering or failure to auto-hide.",
+          "status": "open",
+          "sourceUrl": "https://support.microsoft.com/help/5127653"
+        }
+      ]
+    },
+    "KB5127646": {
+      "build": "28000.3231",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5127646-26h1-enhancements",
+          "title": "Windows 11 version 26H1 cumulative update",
+          "summary": "Security and quality updates for Windows 11 version 26H1 including fixes for known issues and performance improvements.",
+          "category": "misc",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5127646",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5126653": {
+      "build": "22631.7652",
+      "date": "2026-10",
+      "cards": [
+        {
+          "id": "kb5126653-security-update",
+          "title": "October 2026 security update for Windows 11",
+          "summary": "Addresses security vulnerabilities in Windows components including the kernel, networking stack, and cryptography libraries. Also includes non-security fixes for known issues.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5126653",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5124012": {
+      "build": "28000.2954",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5124012-windows-11-26h1-security-updates",
+          "title": "September 2026 security and quality updates for Windows 11 26H1",
+          "summary": "This update includes security fixes and non-security improvements for Windows 11 version 26H1. It addresses vulnerabilities and enhances system stability and performance.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5124012",
           "gradualRollout": true
         }
       ],
