@@ -3,7 +3,7 @@
     "latestAppVersion": "2.6.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
     "changelog": "Merge pull request #25 from m-faccin/vibe/handler-ack-confirmation-b4218f",
-    "updatedAt": "2026-11-26T02:06:39Z"
+    "updatedAt": "2026-11-27T02:04:45Z"
   },
   "versions": {
     "26H2": {
@@ -613,6 +613,134 @@
           "category": "security",
           "msSettingsUri": null,
           "sourceUrl": "https://support.microsoft.com/help/5124012",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5124010": {
+      "build": "26300.9550",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5124010-security-updates",
+          "title": "Security updates for September 2026",
+          "summary": "This update includes security fixes for vulnerabilities in Windows components. It addresses issues in the kernel, networking stack, and other core system components to improve overall system security.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5124010",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5124008": {
+      "build": "26200.9445",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5124008-security-updates-september-2026",
+          "title": "Security updates for September 2026",
+          "summary": "This update includes security fixes for vulnerabilities in Windows components. It addresses issues that could allow remote code execution, privilege escalation, and information disclosure.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5124008",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5124006": {
+      "build": "28000.3086",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5124006-26h1-preview-update",
+          "title": "Windows 11 version 26H1 preview update",
+          "summary": "This update brings the first preview build of Windows 11 version 26H1 to testers. It includes general OS improvements, bug fixes, and early features for upcoming releases.",
+          "category": "misc",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5124006",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5122880": {
+      "build": "22631.7582",
+      "date": "2026-09",
+      "cards": [
+        {
+          "id": "kb5122880-security-update-september-2026",
+          "title": "September 2026 security update for Windows 11",
+          "summary": "This update includes security fixes for Windows 11 version 23H2. It addresses vulnerabilities in the Windows kernel, networking stack, and other core components to improve system stability and security.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5122880",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5121003": {
+      "build": "26200.9168",
+      "date": "2026-08",
+      "cards": [
+        {
+          "id": "kb5121003-security-updates",
+          "title": "Security updates for August 2026",
+          "summary": "This update includes security fixes for vulnerabilities in Windows components, including the kernel, networking stack, and cryptography libraries. It also addresses remote code execution risks in the Windows TCP/IP stack.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5121003",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5121000": {
+      "build": "28000.2704",
+      "date": "2026-08",
+      "cards": [
+        {
+          "id": "kb5121000-security-updates",
+          "title": "Security updates for August 2026",
+          "summary": "This update includes security fixes for vulnerabilities in Windows components. It addresses issues that could allow remote code execution, privilege escalation, or information disclosure.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5121000",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5120998": {
+      "build": "",
+      "date": "2026-08",
+      "cards": [
+        {
+          "id": "kb5120998-security-updates",
+          "title": "Security updates for August 2026",
+          "summary": "This update includes security fixes for vulnerabilities in Windows components. It addresses issues that could allow remote code execution, privilege escalation, or data exposure.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5120998",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5120996": {
+      "build": "28000.2804",
+      "date": "2026-08",
+      "cards": [
+        {
+          "id": "kb5120996-windows-hello-pin-reset-improvements",
+          "title": "Windows Hello PIN reset improvements",
+          "summary": "Improves the reliability of Windows Hello PIN reset when users forget their PIN or need to reset it. Reduces failed reset attempts and provides clearer error messages.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5120996",
           "gradualRollout": true
         }
       ],
