@@ -3,7 +3,7 @@
     "latestAppVersion": "2.6.0",
     "downloadUrl": "https://github.com/m-faccin/Windows-Update-Explainer/releases/latest/download/Windows-Update-Explainer.exe",
     "changelog": "Merge pull request #25 from m-faccin/vibe/handler-ack-confirmation-b4218f",
-    "updatedAt": "2026-11-27T02:04:45Z"
+    "updatedAt": "2026-11-28T01:50:03Z"
   },
   "versions": {
     "26H2": {
@@ -741,6 +741,45 @@
           "category": "security",
           "msSettingsUri": null,
           "sourceUrl": "https://support.microsoft.com/help/5120996",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": []
+    },
+    "KB5120994": {
+      "build": "26200.9106",
+      "date": "2026-08",
+      "cards": [
+        {
+          "id": "hotpatch-kb5120994-security-improvements",
+          "title": "Security improvements for Windows 11 Enterprise LTSC 2024",
+          "summary": "This hotpatch update for Windows 11 version 25H2 and 24H2 includes security improvements to protect against vulnerabilities and enhance system stability.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5120994",
+          "gradualRollout": true
+        }
+      ],
+      "knownIssues": [
+        {
+          "title": "Secure Boot certificate expiration",
+          "detail": "Secure Boot certificates used by most Windows devices have started expiring in June 2026. Microsoft has been updating these certificates on consumer and non-managed business devices for the past months. Devices that haven't received the newer certificates will continue to start and operate normally.",
+          "status": "open",
+          "sourceUrl": "https://support.microsoft.com/help/5120994"
+        }
+      ]
+    },
+    "KB5120240": {
+      "build": "22631.7517",
+      "date": "2026-08",
+      "cards": [
+        {
+          "id": "kb5120240-security-updates",
+          "title": "Security updates for August 2026",
+          "summary": "This update includes security fixes for vulnerabilities in Windows components. It addresses issues that could allow remote code execution, privilege escalation, or information disclosure.",
+          "category": "security",
+          "msSettingsUri": null,
+          "sourceUrl": "https://support.microsoft.com/help/5120240",
           "gradualRollout": true
         }
       ],
